@@ -114,7 +114,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: 12px 9px 5px rgb(248, 66, 66);
+    text-shadow: 12px 10px 5px rgb(90, 231, 90);
     box-shadow: 0 0 1rem  rgb(0, 0, 0);
     border: 1px solid white;
 }
@@ -125,21 +125,21 @@ header{
     height: 45px;
     width:1180px ;
     margin-top: 20px;
-    background-color: rgb(207, 207, 231);
     color: black;
-    border-top: 2px solid blue;
+    background-color: rgb(228, 207, 231);
+    border-top: 2px solid rgb(255, 0, 242);
     align-items: center;
     justify-content: center;
     padding: 20px;
 }
 #first-body2-1{
-    background-color: rgb(207, 207, 231);
+    background-color: rgb(228, 207, 231);
     padding-left: 510px; 
     font-size: 20px; 
     text-decoration: underline;
 }
 #first-body2-2{
-    background-color: rgb(207, 207, 231); 
+    background-color:rgb(228, 207, 231); 
     font-family:'Courier New', Courier, monospace;
     font-size: 12px;
 }
@@ -215,6 +215,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(key-board.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -289,6 +290,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(laptop.webp);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -362,6 +364,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(smart-phone.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -435,6 +438,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(smart-watch.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -508,6 +512,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(headphone.webp);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -582,6 +587,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(iron.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -656,6 +662,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(tv.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -731,6 +738,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(power-bank.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -805,6 +813,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(blander.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -880,6 +889,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(monitor.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -952,6 +962,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(sound-box.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -1024,6 +1035,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(pc.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -1099,6 +1111,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(ups.webp);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -1170,6 +1183,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(tws.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -1243,6 +1257,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(mouse.webp);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -1315,6 +1330,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(button-phone.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -1390,6 +1406,7 @@ header{
     width: 475px; 
     border-radius: 10px;
     margin-right:4px;
+    background-image: url(calculetor.jpg);
     background-size: cover;
     box-shadow: 0 0 0.7rem black;
 }
@@ -1660,9 +1677,8 @@ li{
 ---------------------------------------------
                         @media     
 ----------------------------------------------          
- /* --------------------------------------------- */
-
- @media only screen and  (max-width:576px){
+ --------------------------------------------- */
+ @media(max-width:430px){
 
     /* ---------------@media header-------------- */
     header{
@@ -1693,6 +1709,8 @@ li{
         font-size:11px;
         background-color: black;
     }
+    
+    
     
     
     
@@ -1739,6 +1757,7 @@ li{
         margin-top: 25px;
     }
 
+
     /* ------------ @media full body--------------- */
 
 /* ----------- @media  first body1-------------- */
@@ -1754,29 +1773,30 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-shadow: 12px 10px 5px rgb(90, 231, 90);
 }
 
 
 /* -------------- @media  first body2------------ */
 #first-body2{
-    height: 45px;
+    height: 55px;
     width:775px ;
     margin-top: 20px;
-    background-color: rgb(207, 207, 231);
     color: black;
-    border-top: 2px solid blue;
+    background-color: rgb(228, 207, 231);
+    border-top: 2px solid rgb(255, 0, 242);
     align-items: center;
     justify-content: center;
     padding: 15px;
 }
 #first-body2-1{
-    background-color: rgb(207, 207, 231);
+    background-color: rgb(228, 207, 231);
     padding-left: 350px; 
     font-size: 17px; 
     text-decoration: underline;
 }
 #first-body2-2{
-    background-color: rgb(207, 207, 231); 
+    background-color: rgb(228, 207, 231);
     font-family:'Courier New', Courier, monospace;
     font-size: 10px;
 }
@@ -2229,7 +2249,7 @@ li{
         height: 170px;
         width: 250px;
         margin-left: 20px;
-        font-size:9px;
+        font-size: 9px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
@@ -2460,7 +2480,7 @@ li{
         height: 170px;
         width: 250px;
         margin-left: 20px;
-        font-size:9px;
+        font-size: 9px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
@@ -2775,7 +2795,7 @@ li{
         height: 170px;
         width: 250px;
         margin-left: 20px;
-        font-size:9px;
+        font-size: 9px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
@@ -2853,7 +2873,7 @@ li{
         height: 170px;
         width: 250px;
         margin-left: 20px;
-        font-size:9px;
+        font-size: 9px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
@@ -3083,7 +3103,7 @@ li{
         width: 250px;
         margin-top: 40px;
         margin-left: 20px;
-        font-size: 25px;
+        font-size: 15px;
         text-align: center;
         text-decoration: underline;
     }
@@ -3091,7 +3111,7 @@ li{
         height: 170px;
         width: 250px;
         margin-left: 20px;
-        font-size: 11px;
+        font-size: 9px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
@@ -3238,8 +3258,3 @@ li{
 
 
 }
-
-
-
-
-     

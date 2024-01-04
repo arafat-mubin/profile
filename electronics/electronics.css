@@ -1,0 +1,3260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+}
+body{
+    height: auto;
+    width: auto;
+}
+
+a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.hover:hover{
+    text-decoration: underline ;
+}
+
+
+/* ----------------- header ------------------ */
+header{
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    width: 1220px;
+    display:flex;
+}
+
+
+#logo{
+    width: 100px;
+    padding: 13px;
+    display:flex;
+    background-color: black;
+}
+#round{
+    font-size: 21px;
+    color:rgb(211, 225, 238);
+    padding-left: 30px;
+    background-color: black;
+}
+#roundh1{
+    background-color: black;
+}
+#bd{
+    color: aliceblue;
+    font-size:11px;
+    background-color: black;
+}
+
+
+#home{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    margin-left: 475px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+#food{
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+#electronics{
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+#fashion{
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+#sports{
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+#contact{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    margin-left:70px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+
+/* ------------full body--------------- */
+
+/* -----------first body1-------------- */
+#first-body1{
+    height: 60px;
+    width: 1215px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 12px 10px 5px rgb(90, 231, 90);
+    box-shadow: 0 0 1rem  rgb(0, 0, 0);
+    border: 1px solid white;
+}
+
+
+/* --------------first body2------------ */
+#first-body2{
+    height: 45px;
+    width:1180px ;
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(228, 207, 231);
+    border-top: 2px solid rgb(255, 0, 242);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#first-body2-1{
+    background-color: rgb(228, 207, 231);
+    padding-left: 510px; 
+    font-size: 20px; 
+    text-decoration: underline;
+}
+#first-body2-2{
+    background-color:rgb(228, 207, 231); 
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+
+
+
+
+/*-----------------1st item------------------*/
+#item-1st{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad1{
+    width: auto;
+}
+
+#in-ad1{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad1.png);
+    background-size: cover;
+}
+
+#main1{
+    height:500px;
+    width:1000px ;
+    border-right: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text1{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text1-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text1-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img1{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(key-board.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+
+/*-----------------2nd item------------------*/
+#item-2nd{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad2{
+    width: 190px;
+}
+
+#in-ad2{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad2.png);
+    background-size: cover;
+}
+
+#main2{
+    height:500px;
+    width:1000px ;
+    border-left: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text2{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text2-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text2-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img2{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(laptop.webp);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+/*---------------3rd item ---------------*/
+#item-3rd{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad3{
+    width: auto;
+}
+
+#in-ad3{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad3.png);
+    background-size: cover;
+}
+
+#main3{
+    height:500px;
+    width:1000px ;
+    border-right: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text3{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text3-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text3-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img3{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(smart-phone.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+/*-----------------4th item --------------*/
+#item-4th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad4{
+    width: 190px;
+}
+
+#in-ad4{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad4.png);
+    background-size: cover;
+}
+
+#main4{
+    height:500px;
+    width:1000px ;
+    border-left: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text4{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text4-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text4-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img4{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(smart-watch.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+/*--------------5th item --------------*/
+
+#item-5th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad5{
+    width: auto;
+}
+
+#in-ad5{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad5.png);
+    background-size: cover;
+}
+
+#main5{
+    height:500px;
+    width:1000px ;
+    border-right: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text5{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text5-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text5-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img5{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(headphone.webp);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+
+/*-----------------6th item --------------*/
+#item-6th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad6{
+    width: 190px;
+}
+
+#in-ad6{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad6.png);
+    background-size: cover;
+}
+
+#main6{
+    height:500px;
+    width:1000px ;
+    border-left: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text6{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text6-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text6-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img6{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(iron.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+/*--------------7th item --------------*/
+
+#item-7th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad7{
+    width: auto;
+}
+
+#in-ad7{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad7.png);
+    background-size: cover;
+}
+
+#main7{
+    height:500px;
+    width:1000px ;
+    border-right: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text7{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text7-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text7-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img7{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(tv.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+ 
+
+
+/*-----------------8th item --------------*/
+#item-8th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad8{
+    width: 190px;
+}
+
+#in-ad8{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad8.png);
+    background-size: cover;
+}
+
+#main8{
+    height:500px;
+    width:1000px ;
+    border-left: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text8{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text8-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text8-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img8{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(power-bank.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+/*--------------9th item --------------*/
+
+#item-9th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad9{
+    width: auto;
+}
+
+#in-ad9{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad9.png);
+    background-size: cover;
+}
+
+#main9{
+    height:500px;
+    width:1000px ;
+    border-right: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text9{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text9-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text9-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img9{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(blander.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+
+
+/*-----------------10th item --------------*/
+#item-10th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad10{
+    width: 190px;
+}
+
+#in-ad10{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad10.png);
+    background-size: cover;
+}
+
+#main10{
+    height:500px;
+    width:1000px ;
+    border-left: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text10{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text10-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text10-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img10{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(monitor.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+/*-----------------11th item------------------*/
+#item-11th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad11{
+    width: auto;
+}
+
+#in-ad11{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad1.png);
+    background-size: cover;
+}
+
+#main11{
+    height:500px;
+    width:1000px ;
+    border-right: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text11{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text11-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text11-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img11{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(sound-box.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+/*-----------------12th item------------------*/
+#item-12th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad12{
+    width: 190px;
+}
+
+#in-ad12{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad2.png);
+    background-size: cover;
+}
+
+#main12{
+    height:500px;
+    width:1000px ;
+    border-left: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text12{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text12-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text12-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img12{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(pc.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+
+
+/*-----------------13th item------------------*/
+#item-13th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad13{
+    width: auto;
+}
+
+#in-ad13{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad3.png);
+    background-size: cover;
+}
+
+#main13{
+    height:500px;
+    width:1000px ;
+    border-right: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text13{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text13-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text13-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img13{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(ups.webp);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+/*-----------------14th item------------------*/
+#item-14th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad14{
+    width: 190px;
+}
+
+#in-ad14{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad4.png);
+    background-size: cover;
+}
+
+#main14{
+    height:500px;
+    width:1000px ;
+    border-left: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text14{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text14-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text14-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img14{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(tws.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+/*-----------------15th item------------------*/
+#item-15th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad15{
+    width: auto;
+}
+
+#in-ad15{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad5.png);
+    background-size: cover;
+}
+
+#main15{
+    height:500px;
+    width:1000px ;
+    border-right: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text15{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text15-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text15-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img15{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(mouse.webp);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+/*-----------------16th item------------------*/
+#item-16th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad16{
+    width: 190px;
+}
+
+#in-ad16{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad6.png);
+    background-size: cover;
+}
+
+#main16{
+    height:500px;
+    width:1000px ;
+    border-left: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text16{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text16-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text16-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img16{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(button-phone.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+
+
+/*-----------------17th item------------------*/
+#item-17th{
+    height: 500px;
+    width: 1200px;
+    margin-top: 60px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    margin-left: 8px;
+}
+
+#ad17{
+    width: auto;
+}
+
+#in-ad17{
+    height: 430px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(ad7.png);
+    background-size: cover;
+}
+
+#main17{
+    height:500px;
+    width:1000px ;
+    border-right: 6px solid rgb(192, 192, 192);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#text17{
+    height: 450px;
+    width: 475px;
+    border-radius: 10px;
+    margin-left:4px;
+}
+#text17-1{
+    height: 70px;
+    width: 390px;
+    margin-top: 40px;
+    margin-left: 43px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+#text17-2{
+    height: 310px;
+    width: 390px;
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#img17{
+    height: 450px;
+    width: 475px; 
+    border-radius: 10px;
+    margin-right:4px;
+    background-image: url(calculetor.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0.7rem black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------footer-------------- */
+footer{
+    margin-top: 20px;
+    height: 500px;
+    width: 1220px;
+    background-color: black;
+
+}
+
+
+#frist-footer{
+    border-bottom: 2px solid white;
+    height: 40px;
+    background-color: black;
+}
+#foot-btn{
+    height:30px ;
+    width: 70px;
+    background-color: rgb(255, 190, 69);
+    color: black;
+    margin-top: 5px;
+    margin-left: 550px;
+    border-radius: 5px;
+}
+
+
+#mid-footer{
+    height:400px ;
+    width: 1220px;
+    background-color: black;
+    display: flex;
+}
+
+
+ul{
+    font-size: 28px;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+li{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 1.5px;
+}
+
+/* ---------footer1-------- */
+#footer1{
+    height: 270px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 50px;
+    background-color: black;
+}
+
+/* -----------footer2----------- */
+#footer2{
+    height: 260px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 40px;
+    background-color: black;
+}
+
+
+/* ------------footer3---------- */
+#footer3{
+    height: 270px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 40px;
+    background-color: black;
+}
+#footer3-1{
+    height: 180px;
+    background-color: black;
+    color: white;
+}
+#footer3-2{
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+/* -------------footer4---------- */
+#footer4{
+    height: 290px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 40px;
+    background-color: black;
+}
+
+
+
+
+/* -------------atlast footer------------ */
+#atlast-footer{
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+
+}
+#atlast-footer1{
+    height: 25px;
+    width: 200px;
+    margin-top:40px;
+    margin-left: 40px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#atlast-footer2{
+    height: 40px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+
+
+/* --------------- last footer --------- */
+#last-footer{
+    background-color: black;
+
+}
+#id-1{
+    height: 2px;
+    background-color: white;
+}
+
+#id-2{
+    height: 20px;
+    background-color: black;
+}
+
+#id-3{
+    height: 4px;
+    background-color: white;
+}
+
+#id-4{
+    height:18px ;
+    background-color:black ;
+}
+
+#id-5{
+    height: 6px;
+    background-color: white;
+}
+
+#id-6{
+    height: 16px;
+    background-color: black;
+}
+
+#id-7{
+    height:8px ;
+    background-color: white;
+}
+
+#id-8{
+    height: 14px;
+    background-color: black;
+}
+
+#id-9{
+    height: 10px;
+    background-color: white;
+}
+
+#id-10{
+    height: 12px;
+    background-color: black;
+}
+
+#id-11{
+    height: 12px;
+    background-color: white;
+    
+}
+
+#id-12{
+    height: 10px;
+    background-color: black;
+}
+
+#id-13{
+    height: 14px;
+    background-color: white;
+}
+
+#id-14{
+    height: 8px;
+    background-color: black;
+}
+
+#id-15{
+    height: 16px;
+    background-color: white;
+}
+
+
+#id-16{
+    height: 6px;
+    background-color: black;
+}
+
+#id-17{
+    height: 18px;
+    background-color: white;
+}
+
+#id-18{
+    height: 4px;
+    background-color: black;
+}
+
+#id-19{
+    height: 20px;
+    background-color: white;
+}
+
+#id-20{
+    height: 2px;
+    background-color: black;
+}
+
+#id-21{
+    height: 22px;
+    background-color: white;
+}
+
+
+
+
+
+/* ------------------------------------------
+---------------------------------------------
+                        @media     
+----------------------------------------------          
+ --------------------------------------------- */
+ @media(max-width:430px){
+
+    /* ---------------@media header-------------- */
+    header{
+        height: 80px;
+        background-color: rgb(0, 0, 0);
+        width: 808px;
+        display:flex;
+    }
+    
+    
+    #logo{
+        width: 90px;
+        padding: 10px;
+        display:flex;
+        background-color: black;
+    }
+    #round{
+        font-size: 21px;
+        color:rgb(209, 217, 224);
+        padding-left: 20px;
+        background-color: black;
+    }
+    #roundh1{
+        background-color: black;
+    }
+    #bd{
+        color: aliceblue;
+        font-size:11px;
+        background-color: black;
+    }
+    
+    
+    
+    
+    
+    #home{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin-left: 250px;
+        margin-top: 25px;
+    }
+    #food{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+    #electronics{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin-left: 12px;
+        margin-top: 25px;
+    }
+    #fashion{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin-left: 12px;
+        margin-top: 25px;
+    }
+    #sports{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin-left: 12px;
+        margin-top: 25px;
+    }
+    #contact{
+        background-color: black;
+        color: white;
+        font-size: 12px;
+        margin-left:40px;
+        margin-top: 25px;
+    }
+
+
+    /* ------------ @media full body--------------- */
+
+/* ----------- @media  first body1-------------- */
+#first-body1{
+    height: 60px;
+    width: 800px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 12px 10px 5px rgb(90, 231, 90);
+}
+
+
+/* -------------- @media  first body2------------ */
+#first-body2{
+    height: 55px;
+    width:775px ;
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(228, 207, 231);
+    border-top: 2px solid rgb(255, 0, 242);
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+#first-body2-1{
+    background-color: rgb(228, 207, 231);
+    padding-left: 350px; 
+    font-size: 17px; 
+    text-decoration: underline;
+}
+#first-body2-2{
+    background-color: rgb(228, 207, 231);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+    
+
+
+
+
+
+    /* ---------------@media 1st item------------ */
+    #item-1st{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad1{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad1{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad1.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main1{
+        height:300px;
+        width:650px ;
+        border-right: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text1{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:15px;
+    }
+    #text1-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text1-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img1{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+    
+    
+
+    /* --------------@media 2nd item-------------- */
+    #item-2nd{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad2{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad2{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad2.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main2{
+        height:300px;
+        width:650px ;
+        border-left: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text2{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:10px;
+    }
+    #text2-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text2-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img2{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+
+    /* ---------------@media 3rd item-------------- */
+    #item-3rd{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad3{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad3{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad3.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main3{
+        height:300px;
+        width:650px ;
+        border-right: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text3{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:15px;
+    }
+    #text3-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text3-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img3{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+    
+
+    /* ---------------@media 4th item------------- */
+    #item-4th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad4{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad4{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad4.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main4{
+        height:300px;
+        width:650px ;
+        border-left: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text4{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:10px;
+    }
+    #text4-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text4-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img4{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+
+    /* ---------------@media 5th item-------------- */
+    #item-5th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad5{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad5{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad5.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main5{
+        height:300px;
+        width:650px ;
+        border-right: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text5{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:15px;
+    }
+    #text5-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text5-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img5{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+    
+    /* ---------------@media 6th item------------- */
+    #item-6th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad6{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad6{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad6.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main6{
+        height:300px;
+        width:650px ;
+        border-left: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text6{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:10px;
+    }
+    #text6-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text6-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img6{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+
+    /* ----------------@media 7th item------------- */
+    #item-7th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad7{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad7{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad7.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main7{
+        height:300px;
+        width:650px ;
+        border-right: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text7{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:15px;
+    }
+    #text7-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text7-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img7{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+    
+
+
+    /* ----------------@media 8th item------------- */
+    #item-8th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad8{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad8{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad8.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main8{
+        height:300px;
+        width:650px ;
+        border-left: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text8{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:10px;
+    }
+    #text8-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text8-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img8{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+
+
+    /* ----------------@media 9th item-------------- */
+    #item-9th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad9{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad9{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad9.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main9{
+        height:300px;
+        width:650px ;
+        border-right: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text9{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:15px;
+    }
+    #text9-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text9-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img9{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+    
+
+
+    /* ---------------@media 10th item-------------- */
+    #item-10th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad10{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad10{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad10.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main10{
+        height:300px;
+        width:650px ;
+        border-left: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text10{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:10px;
+    }
+    #text10-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text10-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img10{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+    
+
+
+
+
+
+/* ----------------------@media 11th item------------------ */
+
+    #item-11th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad11{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad11{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad1.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main11{
+        height:300px;
+        width:650px ;
+        border-right: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text11{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:15px;
+    }
+    #text11-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text11-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img11{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+
+
+    /* -------------@media 12th item--------------- */
+    #item-12th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad12{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad12{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad2.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main12{
+        height:300px;
+        width:650px ;
+        border-left: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text12{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:10px;
+    }
+    #text12-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text12-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img12{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+    
+
+
+    /* -----------------@media 13th item---------------- */
+    #item-13th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad13{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad13{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad3.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main13{
+        height:300px;
+        width:650px ;
+        border-right: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text13{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:15px;
+    }
+    #text13-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text13-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img13{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+
+
+
+    /* -----------------@media 14th item------------- */
+    #item-14th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad14{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad14{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad4.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main14{
+        height:300px;
+        width:650px ;
+        border-left: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text14{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:10px;
+    }
+    #text14-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text14-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img14{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+    
+
+
+
+
+    /* ----------------@media 15th item----------- */
+    #item-15th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad15{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad15{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad5.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main15{
+        height:300px;
+        width:650px ;
+        border-right: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text15{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:15px;
+    }
+    #text15-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text15-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img15{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+
+
+
+
+    /* ---------------@media 16th item--------------- */
+    #item-16th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad16{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad16{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad6.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main16{
+        height:300px;
+        width:650px ;
+        border-left: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text16{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:10px;
+    }
+    #text16-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text16-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img16{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+    
+
+
+
+
+    /* --------------@media 17th item--------------- */
+    #item-17th{
+        height: 300px;
+        width: 790px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1rem black;
+        margin-left: 6px;
+    }
+    
+    #ad17{
+        width: 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #in-ad17{
+        height: 250px;
+        width: 120px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 4px;
+        background-image: url(ad7.png);
+        background-size: cover;
+        border: 2px solid black;
+    }
+    
+    #main17{
+        height:300px;
+        width:650px ;
+        border-right: 4px solid rgb(180, 180, 180);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    #text17{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left:15px;
+    }
+    #text17-1{
+        height: 40px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #text17-2{
+        height: 170px;
+        width: 250px;
+        margin-left: 20px;
+        font-size: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    
+    #img17{
+        height: 270px;
+        width: 300px; 
+        border-radius: 10px;
+        margin-left:10px;
+        background-size: cover;
+        box-shadow: 0 0 0.7rem black;
+    }
+    
+
+
+    
+
+
+    /* ---------------@footer------------ */
+    footer{
+        margin-top: 20px;
+        height: 500px;
+        width: 806px;
+        background-color: black;
+    
+    }
+    
+    
+    #frist-footer{
+        border-bottom: 2px solid white;
+        height: 40px;
+        background-color: black;
+    }
+    #foot-btn{
+        height:30px ;
+        width: 70px;
+        background-color: rgb(255, 166, 0);
+        color: black;
+        margin-top: 5px;
+        margin-left: 370px;
+    }
+    
+    
+    #mid-footer{
+        height:400px ;
+        width: 805px;
+        background-color: black;
+        display: flex;
+    }
+    
+    
+    ul{
+        font-size: 28px;
+        background-color: black;
+        color: white;
+        padding: 25px;
+    }
+    li{
+        font-size: 15px;
+        background-color: black;
+        color: white;
+        padding: 1.5px;
+    }
+    
+    /* ---------footer1-------- */
+    #footer1{
+        height: 270px;
+        width: 250px;
+        margin-top: 80px;
+        margin-left: 20px;
+        background-color: black;
+    }
+    
+    /* -----------footer2----------- */
+    #footer2{
+        height: 260px;
+        width: 250px;
+        margin-top: 80px;
+        margin-left: 20px;
+        background-color: black;
+    }
+    
+    
+    /* ------------footer3---------- */
+    #footer3{
+        height: 270px;
+        width: 250px;
+        margin-top: 80px;
+        margin-left: 20px;
+        background-color: black;
+    }
+    #footer3-1{
+        height: 180px;
+        background-color: black;
+        color: white;
+    }
+    #footer3-2{
+        height: 80px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+    }
+    
+    
+    
+    /* -------------footer4---------- */
+    #footer4{
+        height: 290px;
+        width: 250px;
+        margin-top: 80px;
+        margin-left: 20px;
+        background-color: black;
+    }
+    
+/* -------------atlast footer------------ */
+#atlast-footer{
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+
+}
+#atlast-footer1{
+    height: 25px;
+    width: 200px;
+    margin-top:40px;
+    margin-left: 40px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#atlast-footer2{
+    height: 40px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+    
+
+
+}
